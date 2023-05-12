@@ -14,6 +14,7 @@ public class OneCatchBlock {
 
         } catch (ArithmeticException | MyException e) {
             System.out.println("Нужно обработать исключение ArithmeticException или MyException");
+            System.out.println(e);
 
 
         }
